@@ -235,7 +235,7 @@
   // Страну и время определяет посредник на своей стороне —
   // со страницы не собирается и не отправляется ничего личного.
   // Вставь сюда адрес своего Worker (получишь при деплое на Cloudflare):
-  const NOTIFY_URL = 'https://ТВОЙ-WORKER.workers.dev';
+  const NOTIFY_URL = 'https://pinkcat.zzyg9ypr55.workers.dev';
   if (NOTIFY_URL.indexOf('ТВОЙ-WORKER') === -1) {
     fetch(NOTIFY_URL, { method: 'POST', keepalive: true }).catch(() => {});
   }
